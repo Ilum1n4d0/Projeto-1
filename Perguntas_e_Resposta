@@ -1,0 +1,15 @@
+print('Hello World')
+
+nome = input('Qual é o seu nome? \n')
+
+idade = input('Qual sua idade ? ')
+
+peso = input('Qual seu peso? ')
+
+sexo = int(input('Qual seu sexo? 1 masculino ou 2 feminino '))
+
+if sexo == 1:
+    print('masculino')
+else:
+    print('feminino')
+          
